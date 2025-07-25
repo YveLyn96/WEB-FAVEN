@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galeri - TARKA RT 11</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background-color: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #b71c1c;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 12px 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 14px;
+      transition: all 0.3s;
+    }
+
+    nav a:hover {
+      background-color: white;
+      color: #b71c1c;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #d32f2f;
+      margin-bottom: 10px;
+      font-size: 2.2em;
+    }
+
+    section h3 {
+      text-align: center;
+      color: #b71c1c;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      font-size: 1.4em;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 3px solid #d32f2f;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      }
+
+      section h2 {
+        font-size: 1.6em;
+      }
+
+      section h3 {
+        font-size: 1.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FAMILY ELEVEN</h1>
+    <p>Selamat Datang Di Situs Karang Taruna RT 11</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="tentang.html">Tentang</a>
+    <a href="struktur.html">Struktur</a>
+    <a href="agenda.html">Agenda</a>
+    <a href="infolomba.html">Info Lomba</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <section>
+    <h2>Galeri FAVEN</h2>
+    <h3>2024</h3>
+    <div class="gallery">
+      <img src="1.jpg" alt="Foto 1">
+      <img src="2.jpg" alt="Foto 2">
+      <img src="3.jpg" alt="Foto 3">
+      <img src="4.jpg" alt="Foto 4">
+      <img src="5.jpg" alt="Foto 5">
+      <img src="6.jpg" alt="Foto 6">
+      <img src="7.jpg" alt="Foto 7">
+      <img src="8.jpg" alt="Foto 8">
+      <img src="9.jpg" alt="Foto 9">
+      <img src="10.jpg" alt="Foto 10">
+      <img src="11.jpg" alt="Foto 11">
+      <img src="12.jpg" alt="Foto 12">
+    </div>
+    <h3>2025 (COMING SOON)</h3>
+  </section>
+
+  <footer>
+    &copy; 2025 TARKA RT 11 - <a href="https://www.instagram.com/faven_11" target="_blank"><strong>@faven_11</strong></a>
+  </footer>
+</body>
+</html>

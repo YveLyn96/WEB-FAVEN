@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Struktur Anggota - TARKA RT 11</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #b71c1c;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 8px 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #b71c1c;
+      text-align: center;
+      margin: 40px 0 20px;
+    }
+
+    .anggota {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .anggota img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .anggota p {
+      margin: 10px 0 0;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    /* Responsif */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+
+      nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid rgba(255,255,255,0.2);
+      }
+
+      .anggota img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 22px;
+      }
+
+      nav a {
+        font-size: 14px;
+      }
+
+      .anggota img {
+        width: 100px;
+        height: 100px;
+      }
+
+      section h2 {
+        font-size: 20px;
+      }
+
+      .anggota p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FAMILY ELEVEN</h1>
+    <p>Selamat Datang Di Situs Karang Taruna RT 11</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="tentang.html">Tentang</a>
+    <a href="struktur.html">Struktur</a>
+    <a href="agenda.html">Agenda</a>
+    <a href="infolomba.html">Info Lomba</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <section>
+    <h2>Struktur Kepanitiaan TARKA RT 11</h2>
+
+    <div class="anggota">
+      <h3>Ketua</h3>
+      <img src="opal.jpg" alt="Ketua" />
+      <p><a href="https://www.instagram.com/falijlal_"><strong>Naufal</strong></a></p>
+    </div>
+
+    <div class="anggota">
+      <h3>Wakil Ketua</h3>
+      <img src="nindi.jpg" alt="Wakil Ketua" />
+      <p><a href="https://www.instagram.com/kddind_"><strong>Nindi</strong></a></p>
+    </div>
+
+    <div class="anggota">
+      <h3>Sekretaris</h3>
+      <img src="sasky.jpg" alt="Sekretaris 1" />
+      <img src="uli.jpg" alt="Sekretaris 2" />
+      <p>
+        <a href="https://www.instagram.com/saskysp"><strong>Sasky</strong></a>
+        &nbsp;|&nbsp;
+        <a href="https://www.instagram.com/mauldyynr_09"><strong>Uli</strong></a>
+      </p>
+    </div>
+
+    <div class="anggota">
+      <h3>Logistik</h3>
+      <img src="hasna.jpg" alt="Logistik 1" />
+      <img src="ayu.jpg" alt="Logistik 2" />
+      <p>
+        <a href="https://www.instagram.com/hasnrlkya"><strong>Hasna</strong></a>
+        &nbsp;|&nbsp;
+        <a href="https://www.instagram.com/meiiyu.u"><strong>Ayu</strong></a>
+      </p>
+    </div>
+
+    <div class="anggota">
+      <h3>Logistik</h3>
+      <img src="hanif.jpg" alt="Logistik 3" />
+      <img src="aryo.jpg" alt="Logistik 4" />
+      <p>
+        <a href="https://www.instagram.com/hanifyrwn"><strong>Hanif</strong></a>
+        &nbsp;|&nbsp;
+        <a href="https://www.instagram.com/_.whoisryo"><strong>Aryo</strong></a>
+      </p>
+    </div>
+
+    <div class="anggota">
+      <h3>Seksi Dekorasi</h3>
+      <img src="eva.jpg" alt="Dekorasi 1" />
+      <img src="enci.jpg" alt="Dekorasi 2" />
+      <p>
+        <a href="https://www.instagram.com/vesce_ra/"><strong>Reyva</strong></a>
+        &nbsp;|&nbsp;
+        <a href="https://www.instagram.com/peny0nn"><strong>Enci</strong></a>
+      </p>
+    </div>
+
+    <div class="anggota">
+      <h3>Seksi Acara</h3>
+      <img src="octa.jpg" alt="MC 1" />
+      <img src="putri.jpg" alt="MC 2" />
+      <p>
+        <a href="https://www.instagram.com/oktavia_vi56"><strong>Okta</strong></a>
+        &nbsp;|&nbsp;
+        <a href="https://www.instagram.com/meilnyputri.s"><strong>Putri</strong></a>
+      </p>
+    </div>
+
+    <div class="anggota">
+      <h3>Keamanan</h3>
+      <img src="epan.jpg" alt="Keamanan" />
+      <p>
+        <a href="https://www.instagram.com/_raxxyyyyy"><strong>Rayfan</strong></a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 TARKA RT 11 - <a href="https://www.instagram.com/faven_11"><strong>@faven_11</strong></a>
+  </footer>
+
+</body>
+</html>
